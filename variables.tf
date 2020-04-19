@@ -1987,3 +1987,9 @@ variable "flow_log_cloudwatch_log_group_kms_key_id" {
   type        = string
   default     = null
 }
+
+variable "enable_internet_gatway" {
+  description = "Enable Internet connectivity from public subnets"
+  type        = bool
+  default     = true
+}
